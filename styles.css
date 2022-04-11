@@ -57,15 +57,19 @@ text{
 
 /* main classes */
 
-/* .main--img1{
-    float: right;
-    bottom: 100px;
+.main--img1{
+    height: 534px;
+    width: 397px;
+    position: relative; 
+    top: auto;   
+    top: 100px;
 }
 
 .main--img2{
-     float: left;
-    top: 100px;
-} */
+    height: 808px;
+    width: 600.87px;
+    float: right;
+}
 
 
 /* other classes */
