@@ -6,22 +6,38 @@
     box-sizing: inherit;
     
 }
-
+/* rules */
 html{
     box-sizing: border-box;
     font-size: 62.5%;
-
+    
 }
 
 img{
-width: 10%;
-height: auto;
-padding: 0px;
-margin: 0px;
-border: 0px;
+    width: 10%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    
+}
+
+footer{
+    background-color: #bf7631;
 
 }
 
+header{
+    opacity: 1;
+    background-color: #ffffff;
+}
+text{
+    font-family: 'Segoe UI',;
+    font-size: 20;
+}
+
+/* classes */
+/* header classes */
 .img--logo{
     width: 20px;
     height: 50%;
@@ -35,6 +51,47 @@ border: 0px;
 
 }
 
-footer{
-    background-color: #bf7631;
+
+.navflex{
+    list-style-type:none;
+    margin: 10px;
+    display: flex
+}
+
+.flex{
+    display: flex;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+/* other classes */
+
+.container{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.text--left{
+    position: absolute;
+    font-size: 50;
+    top:30px;
+    left:16px
+}
+
+.text--right{
+    position: absolute;
+    font-size: 50;
+    bottom:60px;
+    right:16px
+}
+
+.fromthegroundup{
+    height: 633px;
+    width: 1920px;
+    object-fit: cover;
 }
