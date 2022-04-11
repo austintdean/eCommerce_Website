@@ -58,9 +58,6 @@ text{
     display: flex
 }
 
-.flex{
-    display: flex;
-}
 
 .sticky{
     position: sticky;
@@ -94,4 +91,19 @@ text{
     height: 633px;
     width: 1920px;
     object-fit: cover;
+}
+
+.logoposition{
+    position: absolute;
+    top:0px;
+    left:50%;
+    display: flex;
+    font-size: 30;
+    font-weight: bold;
+}
+
+.cartright{
+    position:absolute;
+    right:5px;
+    top: 5px;
 }
