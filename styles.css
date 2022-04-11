@@ -60,7 +60,7 @@ text{
     background-color: brown;
 }
 
-.main--img1{
+/* .main--img1{
     float: right;
     bottom: 100px;
 }
@@ -68,7 +68,7 @@ text{
 .main--img2{
      float: left;
     top: 100px;
-}
+} */
 
 
 /* other classes */
@@ -147,4 +147,22 @@ text{
     margin-right: auto;
     position: center;
     
+}
+
+.product--container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+
+.buttonstyle{
+    background-color: #bf7631;
+    border: none;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20;
 }
