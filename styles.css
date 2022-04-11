@@ -12,3 +12,29 @@ html{
     font-size: 62.5%;
 
 }
+
+img{
+width: 10%;
+height: auto;
+padding: 0px;
+margin: 0px;
+border: 0px;
+
+}
+
+.img--logo{
+    width: 20px;
+    height: 50%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.section--color{
+    background-color: brown;
+
+}
+
+footer{
+    background-color: #bf7631;
+}
