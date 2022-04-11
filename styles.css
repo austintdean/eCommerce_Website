@@ -14,8 +14,8 @@ html{
 }
 
 img{
-    width: 10%;
-    height: auto;
+    width: 399px;
+    height: 398px;
     padding: 0px;
     margin: 0px;
     border: 0px;
@@ -24,15 +24,14 @@ img{
 
 footer{
     background-color: #bf7631;
-
-}
+    }
 
 header{
     opacity: 1;
     background-color: #ffffff;
 }
 text{
-    font-family: 'Segoe UI',;
+    font-family: 'Segoe UI';
     font-size: 20;
 }
 
@@ -106,4 +105,38 @@ text{
     position:absolute;
     right:5px;
     top: 5px;
+}
+
+.img--contacts{
+    width: 74px;
+    height: 74px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.img--logo2{
+    width: 96px;
+    height: 96px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+    
+.footer--flex{
+    margin: 10px;
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer--flex2{
+    margin: 10px;
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+    
 }
