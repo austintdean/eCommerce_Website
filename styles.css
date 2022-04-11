@@ -16,10 +16,7 @@ html{
 img{
     width: 399px;
     height: 398px;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    
+       
 }
 
 footer{
@@ -45,12 +42,6 @@ text{
     border: 0px;
 }
 
-.section--color{
-    background-color: brown;
-
-}
-
-
 .navflex{
     list-style-type:none;
     margin: 10px;
@@ -63,6 +54,23 @@ text{
     top: 0;
     width: 100%;
 }
+
+/* main classes */
+.section--color{
+    background-color: brown;
+}
+
+.main--img1{
+    float: right;
+    bottom: 100px;
+}
+
+.main--img2{
+     float: left;
+    top: 100px;
+}
+
+
 /* other classes */
 
 .container{
